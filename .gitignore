@@ -1,0 +1,34 @@
+# Node / TypeScript
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+.eslintcache
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+.tmp/
+
+# Environments / secrets
+.env
+.env.*
+!.env.example
+
+# Editor / OS noise
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# AI tool artifacts
+.codex
+.aider*
+.cursor/
+
+# Local reproduction helpers and generated documentation
+scripts/reset-local.sh
+scripts/tenant-isolation-repro.sh
+docs/*
+scripts/lifecycle-ingestion-repro.ts
